@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin : 0;
+}
+
+.title {
+    width : 92%;
+    height: 6%;
+    margin: 2% 4%;
+    border: none;
+    color : rgb(0, 100, 255);
+
+    font-weight: 700;
+    font-size  : 200%;
+}
+
+.text {
+    width : 92%;
+    height: 86%;
+    margin: 2% 4%;
+    border: none;
+
+    font-size: 150%;
+    resize   : none;
+}

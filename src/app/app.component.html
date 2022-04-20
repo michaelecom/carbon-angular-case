@@ -1,0 +1,13 @@
+<div class="header">
+    <span>{{ title }}</span>
+</div>
+<div class="sidebar">
+    <div *ngFor="let note of notes" [routerLink]="['note']" [queryParams]="{'id':note.id}" class="block"
+        routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <span>{{ note.title }}</span>
+    </div>
+    <button class="btn" (click)="addNote()">+</button>
+</div>
+<div class="content">
+    <router-outlet></router-outlet>
+</div>

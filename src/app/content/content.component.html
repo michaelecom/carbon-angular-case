@@ -1,0 +1,3 @@
+<input type="text" [value]="note.title" (input)="this.setTitle($event)" class="title" />
+
+<textarea [value]="note.text" (input)="this.setText($event)" class="text" placeholder="enter text here..."></textarea>
